@@ -31,7 +31,7 @@ store.commit('code', 'A.m')
  * }} props
  *
  */
-const TOCInline1 = () => {
+const ZenUML = () => {
   const localRef = useRef(null)
 
   useEffect(() => {
@@ -50,4 +50,4 @@ const TOCInline1 = () => {
   )
 }
 
-export default TOCInline1
+export default ZenUML
