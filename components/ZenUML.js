@@ -31,7 +31,8 @@ store.commit('code', 'A.m')
  * }} props
  *
  */
-const ZenUML = () => {
+const ZenUML = ({ code }) => {
+  store.commit('code', code)
   const localRef = useRef(null)
 
   useEffect(() => {
