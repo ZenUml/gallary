@@ -41,7 +41,10 @@
     "sharp": "^0.28.3",
     "smoothscroll-polyfill": "^0.4.4",
     "tailwindcss": "^3.0.18",
-    "unist-util-visit": "^4.0.0"
+    "unist-util-visit": "^4.0.0",
+    "vue": "2.6.12",
+    "vue-sequence": "^1.0.220",
+    "vuex": "3.6.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "12.0.9",
